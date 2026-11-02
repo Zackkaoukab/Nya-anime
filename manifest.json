@@ -1,0 +1,30 @@
+{
+  "id": "community.nyaa.episodes.v2",
+  "version": "2.0.0",
+  "name": "Nyaa Anime Streams",
+  "description": "Search public Nyaa anime torrent releases by Stremio series episode and movie IDs.",
+  "resources": [
+    {
+      "name": "stream",
+      "types": [
+        "series",
+        "movie",
+        "anime"
+      ],
+      "idPrefixes": [
+        "tt",
+        "kitsu:"
+      ]
+    }
+  ],
+  "types": [
+    "series",
+    "movie",
+    "anime"
+  ],
+  "idPrefixes": [
+    "tt",
+    "kitsu:"
+  ],
+  "catalogs": []
+}
